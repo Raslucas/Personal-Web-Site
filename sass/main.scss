@@ -1,0 +1,73 @@
+@import "normalize"; 
+@import "bourbon";
+@include font-face("abolon", font-files("../fonts/Abolon.otf"));
+
+body {
+	margin: 0;
+	font-family: "abolon";
+}
+#container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+#gallery {
+	background: red;
+	display: block;
+}
+#parallax {
+
+}
+.parallax-layer {
+
+}
+
+.stars-viewport {
+	width: 100%;
+	height: 800px;
+	z-index: 1;
+}
+.stars {
+	width: 120%;
+	height: 120%;
+	background-image: url(../parallax/stars-texture-3.jpg);
+
+}
+#content {
+	position: absolute;
+	top: 54px;
+	z-index: 2;
+	background-color: rgba(255,255,255,0.28);
+	width: 100%;
+	margin: inherit auto;
+	/*remove when content is ready*/
+	height: 746px;
+	article {
+		height: 600px;
+	}
+	header {
+		h1 {
+		}
+	}
+}
+#nav {
+	z-index: 3;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: rgba(255,255,255,0.5);
+	
+	ul {
+			margin: 15px;
+
+		li {
+			list-style-type: none;
+			display: inline;
+			a {
+				padding: 10px;
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+}
