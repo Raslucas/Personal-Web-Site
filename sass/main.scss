@@ -5,7 +5,7 @@
 @import "../galleria/themes/classic/galleria.classic-altered.css";
 body {
 	margin: 0;
-	font-family: "abolon";
+	font-family: "helvetica";
 }
 #container {
 	width: 100%;
@@ -61,6 +61,7 @@ body {
 			padding: 15px;
 			color: white;
 			font-size: 4.0em;
+			font-family: "abolon", sans-serif;
 			-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(white));
 			
 			
