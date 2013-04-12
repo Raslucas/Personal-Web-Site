@@ -582,7 +582,7 @@ header#site-header {
     padding: 15px;
     color: white;
     font-size: 4.0em;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(white)); }
+    font-family: "abolon", sans-serif; }
 
 /* line 71, ../sass/main.scss */
 #nav {
