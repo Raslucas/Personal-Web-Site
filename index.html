@@ -8,6 +8,9 @@
 		<script src="http://ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.1.1.js" charset="utf-8"></script>
 		<script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.0.6-development-only.js" charset="utf-8"></script>
 
+		<script src="galleria/galleria-1.2.9.min.js" charset="utf-8"></script>
+		<script src="galleria/plugins/flickr/galleria.flickr.min.js" charset="utf-8"></script>
+		
 		
 		<link rel="stylesheet" href="stylesheets/main.css" title="Main CSS" type="text/css" media="screen" charset="utf-8">
 		<link rel="stylesheet" href="parallax/jquery.parallax.css" type="text/css" media="screen" charset="utf-8" />
@@ -27,14 +30,14 @@
 			<div class="parallax-layer stars">
 			</div>
 		</div>
-		<div id="content">
-			<article id="gallery">
-
+			<article id="galleria-position">
+				<div id="galleria-container">
+					<div id="galleria"></div>
+				</div>
 			</article>
 			<header>
 				<h1>Lucas Rasmussen</h1>
 			</header>
-		</div>
 			<article>
 				<header>
 					<h2>Introducing Me</h2>
@@ -55,6 +58,26 @@
 			      mouseport: jQuery('#parallax')
 			    });
 			  });
+	  		</script>
+	  		<script>
+	  			$("#nav").hide();
+	  			$("#container").mouseenter(function(){
+		  			$("#nav").show(3000);
+	  			})
+	  		</script>
+	  		<script>
+	  			    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+
+				    // Initialize Galleria
+				    Galleria.run('#galleria', {
+					    thumbnails: false,
+					    autoplay: 5000,
+				        flickr: 'user:94862464@N03',
+				        flickrOptions: {
+					        imageSize: 'original'
+				        }
+
+				    });
 	  		</script>
 	</body>
 </html>

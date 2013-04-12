@@ -1,3 +1,4 @@
+@import url(../galleria/themes/classic/galleria.classic-altered.css);
 /* normalize.css v2.1.0 | MIT License | git.io/normalize */
 /* normalize.scss v2.1.0 | MIT/GPLv2 License | bit.ly/normalize-with-compass */
 /* ==========================================================================
@@ -523,63 +524,85 @@ table {
   src: url("url('/fonts/../fonts/Abolon.otf') format('opentype').eot");
   src: url("url('/fonts/../fonts/Abolon.otf') format('opentype').eot?#iefix") format("embedded-opentype"), url("url('/fonts/../fonts/Abolon.otf') format('opentype').woff") format("woff"), url("url('/fonts/../fonts/Abolon.otf') format('opentype').ttf") format("truetype"), url("url('/fonts/../fonts/Abolon.otf') format('opentype').svg#abolon") format("svg"); }
 
-/* line 5, ../sass/main.scss */
+/* line 6, ../sass/main.scss */
 body {
   margin: 0;
   font-family: "abolon"; }
 
-/* line 9, ../sass/main.scss */
+/* line 10, ../sass/main.scss */
 #container {
   width: 100%;
   margin: 0 auto;
   position: relative; }
 
-/* line 14, ../sass/main.scss */
-#gallery {
-  background: red;
-  display: block; }
+/* line 15, ../sass/main.scss */
+#galleria-position {
+  position: absolute;
+  top: 50px;
+  left: 25%;
+  width: 50%;
+  z-index: 2; }
+  /* line 21, ../sass/main.scss */
+  #galleria-position #galleria-container {
+    width: 100%;
+    padding-bottom: 15%;
+    position: relative;
+    height: 80%; }
+    /* line 26, ../sass/main.scss */
+    #galleria-position #galleria-container #galleria {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
 
-/* line 25, ../sass/main.scss */
+/* line 40, ../sass/main.scss */
 .stars-viewport {
   width: 100%;
   height: 800px;
   z-index: 1; }
 
-/* line 30, ../sass/main.scss */
+/* line 45, ../sass/main.scss */
 .stars {
   width: 120%;
   height: 120%;
   background-image: url(../parallax/stars-texture-3.jpg); }
 
-/* line 36, ../sass/main.scss */
-#content {
-  position: absolute;
-  top: 54px;
-  z-index: 2;
-  background-color: rgba(255, 255, 255, 0.28);
-  width: 100%;
-  margin: inherit auto;
-  /*remove when content is ready*/
-  height: 746px; }
-  /* line 45, ../sass/main.scss */
-  #content article {
-    height: 600px; }
+/*#content {
+position: absolute;
+top: 54px;
+z-index: 2;
+background-color: rgba(255,255,255,0.28);
+width: 100%;
+margin: inherit auto;
+/*remove when content is ready*/
+/* line 59, ../sass/main.scss */
+article {
+  height: 600px; }
 
-/* line 53, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
+header {
+  z-index: 2; }
+  /* line 64, ../sass/main.scss */
+  header h1 {
+    background-color: green; }
+
+/*}*/
+/* line 69, ../sass/main.scss */
 #nav {
   z-index: 3;
   position: fixed;
   top: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.5); }
-  /* line 60, ../sass/main.scss */
+  /* line 76, ../sass/main.scss */
   #nav ul {
     margin: 15px; }
-    /* line 63, ../sass/main.scss */
+    /* line 79, ../sass/main.scss */
     #nav ul li {
       list-style-type: none;
       display: inline; }
-      /* line 66, ../sass/main.scss */
+      /* line 82, ../sass/main.scss */
       #nav ul li a {
         padding: 10px;
         color: white;

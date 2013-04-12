@@ -48,7 +48,7 @@
 
     // Initialize Galleria
     Galleria.run('#galleria', {
-
+	    
         // search flickr for "galleria"
         flickr: 'search:galleria',
         
@@ -57,6 +57,9 @@
             sort: 'interestingness-desc'
         }
     });
+    Galleria.configure({
+    thumbnails: false;
+});
     </script>
     </body>
 </html>

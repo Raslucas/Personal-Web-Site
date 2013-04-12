@@ -2,6 +2,7 @@
 @import "bourbon";
 @include font-face("abolon", font-files("../fonts/Abolon.otf"));
 
+@import "../galleria/themes/classic/galleria.classic-altered.css";
 body {
 	margin: 0;
 	font-family: "abolon";
@@ -11,9 +12,23 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
-#gallery {
-	background: red;
-	display: block;
+#galleria-position {
+	position: absolute;
+	top: 50px;
+	left: 25%;
+	width: 50%;
+	z-index: 2;
+	#galleria-container {
+		width: 100%;
+		padding-bottom: 15%; 
+		position: relative;
+		height: 80%;
+		#galleria {
+			position: absolute;
+			top: 0; bottom: 0; left: 0; right: 0;
+
+		}
+	}
 }
 #parallax {
 
@@ -33,7 +48,7 @@ body {
 	background-image: url(../parallax/stars-texture-3.jpg);
 
 }
-#content {
+/*#content {
 	position: absolute;
 	top: 54px;
 	z-index: 2;
@@ -41,15 +56,16 @@ body {
 	width: 100%;
 	margin: inherit auto;
 	/*remove when content is ready*/
-	height: 746px;
 	article {
 		height: 600px;
 	}
 	header {
+		z-index: 2;
 		h1 {
+			background-color: green;
 		}
 	}
-}
+/*}*/
 #nav {
 	z-index: 3;
 	position: fixed;
