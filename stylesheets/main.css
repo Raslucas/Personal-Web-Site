@@ -542,14 +542,15 @@ body {
   top: 50px;
   left: 10%;
   width: 80%;
-  z-index: 2; }
-  /* line 22, ../sass/main.scss */
+  z-index: 2;
+  max-height: 100%; }
+  /* line 23, ../sass/main.scss */
   #galleria-position #galleria-container {
     width: 100%;
     padding-bottom: 15%;
     position: relative;
     height: 80%; }
-    /* line 27, ../sass/main.scss */
+    /* line 28, ../sass/main.scss */
     #galleria-position #galleria-container #galleria {
       position: absolute;
       top: 0;
@@ -557,25 +558,25 @@ body {
       left: 0;
       right: 0; }
 
-/* line 40, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 .stars-viewport {
   width: 100%;
   height: 800px;
   z-index: 1; }
 
-/* line 45, ../sass/main.scss */
+/* line 46, ../sass/main.scss */
 .stars {
   width: 120%;
   height: 120%;
   background-image: url(../parallax/stars-texture-3.jpg); }
 
-/* line 52, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 header#site-header {
   z-index: 2;
   position: absolute;
   top: 650px;
   padding: 20px 0; }
-  /* line 58, ../sass/main.scss */
+  /* line 59, ../sass/main.scss */
   header#site-header h1 {
     margin: 0;
     padding: 15px;
@@ -583,27 +584,27 @@ header#site-header {
     font-size: 4.0em;
     -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(white)); }
 
-/* line 70, ../sass/main.scss */
+/* line 71, ../sass/main.scss */
 #nav {
   z-index: 3;
   position: fixed;
   top: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.5); }
-  /* line 77, ../sass/main.scss */
+  /* line 78, ../sass/main.scss */
   #nav ul {
     margin: 15px; }
-    /* line 80, ../sass/main.scss */
+    /* line 81, ../sass/main.scss */
     #nav ul li {
       list-style-type: none;
       display: inline; }
-      /* line 83, ../sass/main.scss */
+      /* line 84, ../sass/main.scss */
       #nav ul li a {
         padding: 10px;
         color: white;
         text-decoration: none; }
 
-/* line 91, ../sass/main.scss */
+/* line 92, ../sass/main.scss */
 #content {
   width: 960px;
   margin: 0 auto;
