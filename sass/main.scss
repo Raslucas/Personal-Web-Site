@@ -1,6 +1,6 @@
 @import "normalize"; 
 @import "bourbon";
-@include font-face("abolon", font-files("../fonts/Abolon.otf"));
+@include font-face("abolon", font-files("../fonts/abolon-webfont.ttf"));
 
 @import "../galleria/themes/classic/galleria.classic-altered.css";
 body {

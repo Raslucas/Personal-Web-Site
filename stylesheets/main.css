@@ -521,8 +521,8 @@ table {
   font-family: "abolon";
   font-weight: normal;
   font-style: normal;
-  src: url("url('/fonts/../fonts/Abolon.otf') format('opentype').eot");
-  src: url("url('/fonts/../fonts/Abolon.otf') format('opentype').eot?#iefix") format("embedded-opentype"), url("url('/fonts/../fonts/Abolon.otf') format('opentype').woff") format("woff"), url("url('/fonts/../fonts/Abolon.otf') format('opentype').ttf") format("truetype"), url("url('/fonts/../fonts/Abolon.otf') format('opentype').svg#abolon") format("svg"); }
+  src: url("url('/fonts/../fonts/abolon-webfont.ttf') format('truetype').eot");
+  src: url("url('/fonts/../fonts/abolon-webfont.ttf') format('truetype').eot?#iefix") format("embedded-opentype"), url("url('/fonts/../fonts/abolon-webfont.ttf') format('truetype').woff") format("woff"), url("url('/fonts/../fonts/abolon-webfont.ttf') format('truetype').ttf") format("truetype"), url("url('/fonts/../fonts/abolon-webfont.ttf') format('truetype').svg#abolon") format("svg"); }
 
 /* line 6, ../sass/main.scss */
 body {
