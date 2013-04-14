@@ -108,15 +108,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/stylesheets\/screen.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/screen.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/galleria\/galleria-1.2.9.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -127,6 +118,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/galleria\/galleria-1.2.9-ck.js",
       "fileType" : 64
+    },
+    "\/stylesheets\/screen.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylesheets\/screen.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/galleria\/themes\/classic\/classic-map.png" : {
       "ignoreWasSetByUser" : 0,
@@ -150,18 +150,6 @@
       "outputAbbreviatedPath" : "\/galleria\/plugins\/history\/galleria.history-ck.js",
       "fileType" : 64
     },
-    "\/sass\/main.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/main.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/main.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -181,6 +169,18 @@
       "outputAbbreviatedPath" : "\/parallax\/stars-texture-2.jpg",
       "initialSize" : 43150,
       "fileType" : 4096
+    },
+    "\/sass\/main.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/main.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/main.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/parallax\/stone-texture-3.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -278,17 +278,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/parallax\/wood-texture-3.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/parallax\/wood-texture-3.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/parallax\/wood-texture-3.jpg",
-      "initialSize" : 75489,
-      "fileType" : 4096
-    },
     "\/parallax\/lava-texture-4.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -299,6 +288,15 @@
       "outputAbbreviatedPath" : "\/parallax\/lava-texture-4.jpg",
       "initialSize" : 91658,
       "fileType" : 4096
+    },
+    "\/galleria\/themes\/classic\/classic-demo.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/galleria\/themes\/classic\/classic-demo.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/galleria\/galleria-1.2.9.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -342,6 +340,15 @@
       "initialSize" : 41898,
       "fileType" : 8192
     },
+    "\/galleria\/plugins\/flickr\/flickr-demo.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/galleria\/plugins\/flickr\/flickr-demo.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/galleria\/themes\/classic\/galleria.classic.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -351,6 +358,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/stylesheets\/main.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -359,15 +375,6 @@
       "inputAbbreviatedPath" : "\/stylesheets\/main.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/galleria\/themes\/classic\/classic-demo.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/galleria\/themes\/classic\/classic-demo.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/galleria\/plugins\/history\/galleria.history.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -380,14 +387,16 @@
       "outputAbbreviatedPath" : "\/galleria\/plugins\/history\/galleria.history.min-ck.js",
       "fileType" : 64
     },
-    "\/galleria\/plugins\/flickr\/flickr-demo.html" : {
+    "\/parallax\/wood-texture-3.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/galleria\/plugins\/flickr\/flickr-demo.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/parallax\/wood-texture-3.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/parallax\/wood-texture-3.jpg",
+      "initialSize" : 75489,
+      "fileType" : 4096
     },
     "\/galleria\/plugins\/flickr\/galleria.flickr.js" : {
       "ignoreWasSetByUser" : 0,
@@ -399,15 +408,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/galleria\/plugins\/flickr\/galleria.flickr-ck.js",
       "fileType" : 64
-    },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/parallax\/wood-texture-2.JPG" : {
       "ignoreWasSetByUser" : 0,
