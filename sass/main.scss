@@ -1,11 +1,21 @@
 @import "normalize"; 
 @import "bourbon";
-@include font-face("abolon", font-files("../fonts/abolon-webfont.ttf"));
+@font-face {
+    font-family: 'abolonregular';
+    src: url('../fonts/abolon-webfont.eot');
+    src: url('../fonts/abolon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/abolon-webfont.woff') format('woff'),
+         url('../fonts/abolon-webfont.ttf') format('truetype'),
+         url('../fonts/abolon-webfont.svg#abolonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @import "../galleria/themes/classic/galleria.classic-altered.css";
 body {
 	margin: 0;
-	font-family: "helvetica";
+	font-family: "helvetica", sans-serif;
 }
 #container {
 	width: 100%;
@@ -61,7 +71,7 @@ body {
 			padding: 15px;
 			color: white;
 			font-size: 4.0em;
-			font-family: "abolon", sans-serif;
+			font-family: "abolonregular", sans-serif;
 			
 			
 			
