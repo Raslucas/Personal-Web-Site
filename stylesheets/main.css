@@ -519,8 +519,8 @@ table {
 
 @font-face {
   font-family: 'abolonregular';
-  src: url("../fonts/abolon-webfont.eot");
-  src: url("../fonts/abolon-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/abolon-webfont.woff") format("woff"), url("../fonts/abolon-webfont.ttf") format("truetype"), url("../fonts/abolon-webfont.svg#abolonregular") format("svg");
+  src: url("abolon-webfont.eot");
+  src: url("abolon-webfont.eot?#iefix") format("embedded-opentype"), url("abolon-webfont.woff") format("woff"), url("abolon-webfont.ttf") format("truetype"), url("abolon-webfont.svg#abolonregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
