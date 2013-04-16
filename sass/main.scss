@@ -40,11 +40,13 @@ body {
 
 body .stars-viewport {
 	position: absolute;
+	top: 0;
 	width: 100%;
 	height: 100%;
 	z-index: 1;
 }
 .stars {
+	top: 0;
 	width: 120%;
 	height: 120%;
 	background-image: url(../parallax/stars-texture-3.jpg);
