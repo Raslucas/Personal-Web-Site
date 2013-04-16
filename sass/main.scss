@@ -1,16 +1,6 @@
 @import "normalize"; 
 @import "bourbon";
-@font-face {
-    font-family: 'abolonregular';
-    src: url('abolon-webfont.eot');
-    src: url('abolon-webfont.eot?#iefix') format('embedded-opentype'),
-         url('abolon-webfont.woff') format('woff'),
-         url('abolon-webfont.ttf') format('truetype'),
-         url('abolon-webfont.svg#abolonregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
 
 @import "../galleria/themes/classic/galleria.classic-altered.css";
 body {
@@ -71,7 +61,7 @@ body .stars-viewport {
 			padding: 15px;
 			color: white;
 			font-size: 4.0em;
-			font-family: "abolonregular", sans-serif;
+			font-family: "omnes-pro", sans-serif;
 			
 			
 			
