@@ -531,51 +531,43 @@ body {
 
 /* line 20, ../sass/main.scss */
 #container {
-  width: 100%;
   margin: 0 auto;
-  position: relative;
-  background-image: url(../parallax/stars-texture-3.jpg); }
+  position: relative; }
 
 /* line 26, ../sass/main.scss */
 #galleria-position {
-  position: absolute;
-  top: 50px;
-  left: 10%;
   width: 80%;
+  margin: 0 auto;
   z-index: 2;
   max-height: 100%; }
-  /* line 33, ../sass/main.scss */
+  /* line 34, ../sass/main.scss */
   #galleria-position #galleria-container {
     width: 100%;
-    padding-bottom: 15%;
     position: relative;
     height: 80%; }
-    /* line 38, ../sass/main.scss */
-    #galleria-position #galleria-container #galleria {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0; }
+
+/* line 44, ../sass/main.scss */
+#parallax {
+  z-index: -1; }
 
 /* line 51, ../sass/main.scss */
-.stars-viewport {
+body .stars-viewport {
+  position: absolute;
   width: 100%;
-  height: 800px;
+  height: 100%;
   z-index: 1; }
 
-/* line 56, ../sass/main.scss */
+/* line 57, ../sass/main.scss */
 .stars {
   width: 120%;
   height: 120%;
   background-image: url(../parallax/stars-texture-3.jpg); }
 
-/* line 63, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 header#site-header {
-  z-index: 2;
-  position: absolute;
+  z-index: 0;
   top: 650px;
-  padding: 20px 0; }
+  padding: 0 0; }
   /* line 69, ../sass/main.scss */
   header#site-header h1 {
     margin: 0;
@@ -610,4 +602,5 @@ header#site-header {
   margin: 0 auto;
   padding: 15px;
   box-shadow: inset 0px 0px 1px 7px black;
-  background-color: rgba(255, 255, 255, 0.67); }
+  background-color: rgba(255, 255, 255, 0.67);
+  z-index: 2; }
