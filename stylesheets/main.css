@@ -520,31 +520,33 @@ table {
 /* line 6, ../sass/main.scss */
 body {
   margin: 0;
-  font-family: "helvetica", sans-serif; }
+  font-family: "helvetica", sans-serif;
+  background-image: url(../parallax/stars-texture-3.jpg); }
 
-/* line 10, ../sass/main.scss */
+/* line 11, ../sass/main.scss */
 #container {
   margin: 0 auto;
   position: relative;
-  min-height: 1280px; }
+  min-height: 1280px;
+  background-image: url(../parallax/stars-texture-3.jpg); }
 
-/* line 17, ../sass/main.scss */
+/* line 18, ../sass/main.scss */
 #galleria-position {
   width: 80%;
   margin: 0 auto;
   z-index: 2;
   max-height: 100%; }
-  /* line 25, ../sass/main.scss */
+  /* line 26, ../sass/main.scss */
   #galleria-position #galleria-container {
     width: 100%;
     position: relative;
     height: 80%; }
 
-/* line 35, ../sass/main.scss */
+/* line 36, ../sass/main.scss */
 #parallax {
   z-index: -1; }
 
-/* line 42, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
 body .stars-viewport {
   position: absolute;
   top: 0;
@@ -552,19 +554,19 @@ body .stars-viewport {
   height: 100%;
   z-index: 1; }
 
-/* line 49, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 .stars {
   top: 0;
   width: 120%;
   height: 120%;
   background-image: url(../parallax/stars-texture-3.jpg); }
 
-/* line 57, ../sass/main.scss */
+/* line 58, ../sass/main.scss */
 header#site-header {
   z-index: 0;
   top: 650px;
   padding: 0 0; }
-  /* line 62, ../sass/main.scss */
+  /* line 63, ../sass/main.scss */
   header#site-header h1 {
     margin: 0;
     padding: 15px;
@@ -572,27 +574,27 @@ header#site-header {
     font-size: 4.0em;
     font-family: "omnes-pro", sans-serif; }
 
-/* line 74, ../sass/main.scss */
+/* line 75, ../sass/main.scss */
 #nav {
   z-index: 3;
   position: fixed;
   top: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.5); }
-  /* line 81, ../sass/main.scss */
+  /* line 82, ../sass/main.scss */
   #nav ul {
     margin: 15px; }
-    /* line 84, ../sass/main.scss */
+    /* line 85, ../sass/main.scss */
     #nav ul li {
       list-style-type: none;
       display: inline; }
-      /* line 87, ../sass/main.scss */
+      /* line 88, ../sass/main.scss */
       #nav ul li a {
         padding: 10px;
         color: white;
         text-decoration: none; }
 
-/* line 95, ../sass/main.scss */
+/* line 96, ../sass/main.scss */
 #content {
   width: 960px;
   margin: 0 auto;

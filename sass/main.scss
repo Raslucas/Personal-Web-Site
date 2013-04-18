@@ -1,20 +1,21 @@
 @import "normalize"; 
 @import "bourbon";
-
+$background: url(../parallax/stars-texture-3.jpg);
 
 @import "../galleria/themes/classic/galleria.classic-altered.css";
 body {
 	margin: 0;
 	font-family: "helvetica", sans-serif;
+	background-image: url(../parallax/stars-texture-3.jpg);
 }
 #container {
 	//width: 100%;
 	margin: 0 auto;
 	position: relative;
 	min-height: 1280px;
-	//background-image: url(../parallax/stars-texture-3.jpg);
+	background-image: url(../parallax/stars-texture-3.jpg);
 }
-#galleria-position {
+#galleria-position { 
 	//position: absolute;
 	//top: 50px;
 	//left: 10%;
@@ -50,7 +51,7 @@ body .stars-viewport {
 	top: 0;
 	width: 120%;
 	height: 120%;
-	background-image: url(../parallax/stars-texture-3.jpg);
+	background-image: $background;
 
 }
 
