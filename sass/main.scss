@@ -6,14 +6,15 @@ $background: url(../parallax/stars-texture-3.jpg);
 body {
 	margin: 0;
 	font-family: "helvetica", sans-serif;
+	background: black;
 	background-image: url(../parallax/stars-texture-3.jpg);
 }
-#container {
+#container { 
 	//width: 100%;
 	margin: 0 auto;
 	position: relative;
 	min-height: 1280px;
-	background-image: url(../parallax/stars-texture-3.jpg);
+	//background-image: url(../parallax/stars-texture-3.jpg);
 }
 #galleria-position { 
 	//position: absolute;
