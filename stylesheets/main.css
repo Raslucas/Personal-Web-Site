@@ -520,7 +520,7 @@ table {
 /* line 6, ../sass/main.scss */
 body {
   margin: 0;
-  font-family: "helvetica", sans-serif;
+  font-family: "rooney-web", sans-serif; 
   background: black;
   background-image: url(../parallax/stars-texture-3.jpg); }
 
@@ -572,7 +572,7 @@ header#site-header {
     padding: 15px;
     color: white;
     font-size: 4.0em;
-    font-family: "omnes-pro", sans-serif; }
+    font-family: "coquette", sans-serif; }
 
 /* line 76, ../sass/main.scss */
 #nav {
