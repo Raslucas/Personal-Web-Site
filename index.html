@@ -13,8 +13,8 @@
 		<script src="galleria/galleria-1.2.9.min.js" charset="utf-8"></script>
 		<script src="galleria/plugins/flickr/galleria.flickr.min.js" charset="utf-8"></script>
 		<script src="parallax/jquery.event.frame.js" type="text/javascript"></script>
-			<script src="parallax/jquery.parallax.min.js" type="text/javascript"></script>
-		
+		<script src="parallax/jquery.parallax.min.js" type="text/javascript"></script>
+		<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
 		
 		<link rel="stylesheet" href="stylesheets/main.css" title="Main CSS" type="text/css" media="screen" />
 		<link rel="stylesheet" href="parallax/jquery.parallax.css" type="text/css" media="screen"/>
@@ -44,16 +44,14 @@
 			<div class="parallax-layer stars">
 			</div>
 		</div>
-			<section>
 				<div id="galleria-position">
 					<div id="galleria-container">
 						<div id="galleria"></div>
 					</div>
-				</article>
+			<div id="appear">
 				<header id="site-header">
 					<h1>Lucas Rasmussen</h1>
 				</header>
-			</section>
 			<section id="content">
 				<header>
 					<h2>Introducing Me</h2>
@@ -64,6 +62,7 @@
 					</p>
 				</article>
 			</section>
+			</div>
 		</div>
 
 		  	<script>
@@ -82,11 +81,9 @@
 	  			});
 	  		</script>-->
 	  		<script>
-	  			$("#site-header").hide();
-	  			$("#content").hide();
+	  			$("#appear").hide();
 	  			$("#galleria img").ready(function(){
-		  			$("#site-header").show(3000);
-		  			$("#content").show(3000);
+		  			$("#appear").delay(1000).show( "scale",1500);
 	  			});
 	  		</script>
 	  		<script>
