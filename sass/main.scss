@@ -96,6 +96,8 @@ header#site-header {
 }
 #content {
 	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	margin: 0 auto;
 	padding: 15px;
 	box-shadow: inset 0px 0px 1px 7px black;
