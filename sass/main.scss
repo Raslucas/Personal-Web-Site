@@ -14,13 +14,14 @@ body {
 	margin: 0 auto;
 	position: relative; 
 	min-height: 1280px;
+	width: 80%;
 	//background-image: url(../parallax/stars-texture-3.jpg);
 }
 #galleria-position { 
 	//position: absolute;
 	//top: 50px;
 	//left: 10%;
-	width: 80%;
+	//width: 80%;
 	margin: 0 auto;
 	z-index: 2;
 	max-height: 100%;
@@ -36,14 +37,17 @@ body {
 }
 #parallax {
 	z-index: -1;
+	position: fixed;
+	
+	
 }
 .parallax-layer {
 
 }
 
 body .stars-viewport {
-	position: absolute;
-	top: 0;
+	//position: absolute;
+	//top: 0;
 	width: 100%;
 	height: 100%;
 	z-index: 1;
@@ -96,8 +100,8 @@ header#site-header {
 }
 #content {
 	width: 100%;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
+	//box-sizing: border-box;
+	//-moz-box-sizing: border-box;
 	margin: 0 auto;
 	padding: 15px;
 	box-shadow: inset 0px 0px 1px 7px black;
