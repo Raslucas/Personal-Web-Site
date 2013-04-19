@@ -1,13 +1,13 @@
 @import "normalize"; 
 @import "bourbon";
-$background: url(../parallax/stars-texture-3.jpg);
+$background: url(../parallax/stars-texture-2.jpg);
 
 @import "../galleria/themes/classic/galleria.classic-altered.css";
 body {
 	margin: 0;
 	font-family: "rooney-web", sans-serif;
 	background: black;
-	background-image: url(../parallax/stars-texture-3.jpg);
+	background-image: $background;
 }
 #container { 
 	//width: 100%;
@@ -95,7 +95,7 @@ header#site-header {
 	}
 }
 #content {
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 15px;
 	box-shadow: inset 0px 0px 1px 7px black;

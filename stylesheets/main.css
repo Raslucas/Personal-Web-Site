@@ -520,9 +520,9 @@ table {
 /* line 6, ../sass/main.scss */
 body {
   margin: 0;
-  font-family: "rooney-web", sans-serif; 
+  font-family: "rooney-web", sans-serif;
   background: black;
-  background-image: url(../parallax/stars-texture-3.jpg); }
+  background-image: url(../parallax/stars-texture-2.jpg); }
 
 /* line 12, ../sass/main.scss */
 #container {
@@ -559,7 +559,7 @@ body .stars-viewport {
   top: 0;
   width: 120%;
   height: 120%;
-  background-image: url(../parallax/stars-texture-3.jpg); }
+  background-image: url(../parallax/stars-texture-2.jpg); }
 
 /* line 59, ../sass/main.scss */
 header#site-header {
@@ -596,7 +596,7 @@ header#site-header {
 
 /* line 97, ../sass/main.scss */
 #content {
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
   padding: 15px;
   box-shadow: inset 0px 0px 1px 7px black;
