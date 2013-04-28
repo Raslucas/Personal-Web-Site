@@ -8,6 +8,9 @@ body {
 	font-family: "rooney-web", sans-serif;
 	background: black;
 	background-image: $background;
+	a {
+		color: white;
+	}
 }
 #container { 
 	//width: 100%;
