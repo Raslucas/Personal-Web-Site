@@ -1,5 +1,6 @@
 @import "normalize"; 
 @import "bourbon";
+@import "mobile" (device-width:480px);
 $background: url(../parallax/stars-texture-2.jpg);
 
 @import "../galleria/themes/classic/galleria.classic-altered.css";
