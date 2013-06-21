@@ -36,8 +36,8 @@
     <body>
 		<nav id="nav">
 				<ul>
-					<li><a href="http://lucasrasmussen.me/">Home</a></li>
-					<li><a href="http://blog.lucasrasmussen.me/">Blog</a></li>
+					<li><a href="http://lucasrasmussen.me/#appear">Home</a></li>
+					<li><a href="http://blog.lucasrasmussen.me/#appear">Blog</a></li>
 					
 				</ul>
 			</nav>
@@ -174,42 +174,40 @@
         </footer>
     	</div>
     </div>
-        	<script>
-			  jQuery(document).ready(function(){
-			    jQuery('#parallax .parallax-layer')
-			    .parallax({
-			      mouseport: jQuery('body'),
-			      yparallax: false,
-			    });
-			  });
-	  		</script>
-	  		<script>
-	  			$("#nav").hide();
-	  			$("#container").mouseenter(function(){
-		  			$("#nav").show(3000);
-	  			});
-	  		</script>
-	  		<script>
-	  			$("#appear").hide();
-	  			$("#galleria img").ready(function(){
-		  			$("#appear").delay(1000).show( "scale",1500);
-	  			});
-	  		</script>
-	  		<script>
-	  			    Galleria.loadTheme('http://lucasrasmussen.me/galleria/themes/classic/galleria.classic.min.js');
+        <script>
+              jQuery(document).ready(function(){
+                jQuery('#parallax .parallax-layer')
+                .parallax({
+                  mouseport: jQuery('body'),
+                  yparallax: false,
+                });
+              });
+            </script>
+            <script>
+                $("#nav").hide();
+                $("#nav").show(1000);
+            </script>
+            <script>
+                $("#appear").hide();
+                $("#galleria img").ready(function(){
+                    $("#appear").delay(1000).show( "scale",1500);
+                });
+            </script>
+            <script>
+                    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
 
-				    // Initialize Galleria
-				    Galleria.run('#galleria', {
-					    thumbnails: false,
-					    autoplay: 5000,
-					    height: 0.5625,
-				        flickr: 'user:94862464@N03',
-				        flickrOptions: {
-					        imageSize: 'original',
-					        description: true, 
-				        }
+                    // Initialize Galleria
+                    Galleria.run('#galleria', {
+                        thumbnails: false,
+                        autoplay: 5000,
+                        height: 0.5625,
+                        flickr: 'user:94862464@N03',
+                        flickrOptions: {
+                            imageSize: 'original',
+                            description: true, 
+                        }
 
-				    });
-	  		</script>
+                    });
+            </script>
     </body>
 </html>
